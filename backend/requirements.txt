@@ -1,0 +1,35 @@
+# Cloud Security Monitoring and Automated Incident Response using AI
+# Python 3.12+ required. Install with:  pip install -r requirements.txt
+
+# --- Web framework ---
+Flask>=3.0.3,<4.0
+Flask-JWT-Extended>=4.6.0,<5.0
+Flask-SQLAlchemy>=3.1.1,<4.0
+Flask-Cors>=4.0.1,<7.0
+Flask-Mail>=0.10.0,<1.0
+Werkzeug>=3.0.3,<4.0
+itsdangerous>=2.2.0,<3.0
+
+# --- Databases ---
+psycopg2-binary>=2.9.9
+PyMongo>=4.8.0,<5.0
+SQLAlchemy>=2.0.30,<3.0
+
+# --- Security ---
+bcrypt>=4.2.0
+email-validator>=2.2.0
+
+# --- AI / ML (Phase 2 threat detection) ---
+numpy>=1.26.4
+pandas>=2.2.2
+scikit-learn>=1.5.1
+xgboost>=2.1.1
+joblib>=1.4.2
+
+# --- Reporting ---
+reportlab>=4.2.2
+
+# --- Scheduling and integrations ---
+APScheduler>=3.10.4
+requests>=2.32.3
+python-dotenv>=1.0.1
